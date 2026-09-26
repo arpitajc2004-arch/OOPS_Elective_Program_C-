@@ -3,7 +3,7 @@ This repository contains **Object-Oriented Programming (OOPS)** concepts impleme
 # Student Details
 | Details | Information |
 |---------|-------------|
-| Name | Arpita J. Chougule |
+| Name | Arpita J Chougule |
 | USN | Your USN |
 | Roll No. | Your Roll Number |
 | Div | F |
