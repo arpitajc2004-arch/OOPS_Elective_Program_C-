@@ -59,3 +59,8 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | St_mem_st_data.cpp | Demonstrates a static member function accessing and displaying a static data member shared by all objects of the class |
 | Friend.cpp | Demonstrates a friend function accessing the private data members of a class to calculate the sum of two numbers |
 | Friend_two_classes.cpp | Demonstrates a common friend function accessing private data members of two different classes to calculate their sum |
+## Class 6 : Inheritance
+| Program | Concepts |
+| ------- | -------- |
+| Single_level_inheritance.cpp | Demonstrates single-level inheritance, where the Dog class inherits the properties and member functions of the Animal class |
+| Multilevel_inheritance.cpp | Demonstrates multilevel inheritance, where IT_Student inherits from Student, which in turn inherits from Person |
