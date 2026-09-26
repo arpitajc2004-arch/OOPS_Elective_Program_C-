@@ -4,7 +4,7 @@ This repository contains **Object-Oriented Programming (OOPS)** concepts impleme
 | Details | Information |
 |---------|-------------|
 | Name | Arpita J Chougule |
-| USN | Your USN |
-| Roll No. | Your Roll Number |
+| USN | 01FE23BEC357 |
+| Roll No | 656 |
 | Div | F |
 | Semester | 	VII |
