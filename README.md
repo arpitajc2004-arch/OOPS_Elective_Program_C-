@@ -34,3 +34,14 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Student1.cpp | Demonstrates defining class member functions outside the class using the scope resolution operator (::) |
 | Area_rect.cpp | Demonstrates the setting of values and calculating the area of a rectangle using class data members and member functions |
 ## Class 3 : Member Functions and Constructors
+| Program | Concept |
+| ------- | ------- |
+| Time.cpp | Demonstrates setting and displaying time using a class and member functions defined outside the class |
+| Time_add.cpp | Demonstrates passing objects as arguments to a member function to add two time objects |
+| Add_complex.cpp | Demonstrates object as an argument by adding two complex numbers using a member function |
+| Const.cpp | Demonstrates a default constructor that initializes car mileage by accepting input from the user |
+| Emp_const.cpp | Demonstrates a default constructor for initializing employee ID and department details |
+| Emp_para.cpp | Demonstrates a parameterized constructor for initializing employee details when objects are created |
+| Emp_def_para.cpp | Demonstrates the use of both parameterized and default constructors in the same class |
+| Dist_para.cpp | Demonstrates a parameterized constructor for initializing distance values in feet and inches |
+| def_para_copy.cpp | Demonstrates parameterized, default, and copy constructors for initializing and copying Rectangle objects |
