@@ -45,3 +45,11 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Emp_def_para.cpp | Demonstrates the use of both parameterized and default constructors in the same class |
 | Dist_para.cpp | Demonstrates a parameterized constructor for initializing distance values in feet and inches |
 | def_para_copy.cpp | Demonstrates parameterized, default, and copy constructors for initializing and copying Rectangle objects |
+## Class 4 : Destructor and Static Data Members
+| Program | Concept |
+| ------- | ------- |
+| Dest.cpp | Demonstrates a destructor that is automatically called when car objects are destroyed |
+| Rect_dets.cpp | Demonstrates default, parameterized, copy constructors, and a destructor within the same class |
+| Static_data.cpp | Demonstrates a static data member that is shared by all objects of the class and maintains a common count |
+| Emp_static1.cpp  | Demonstrates how a static employee ID is shared among all objects, resulting in the same static variable being accessed by each object |
+| Emp_static_data.cpp | Demonstrates the difference between a static class member and a non-static data member, where the static counter generates a unique employee ID for each object |
