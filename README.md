@@ -64,3 +64,8 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | ------- | -------- |
 | Single_level_inheritance.cpp | Demonstrates single-level inheritance, where the Dog class inherits the properties and member functions of the Animal class |
 | Multilevel_inheritance.cpp | Demonstrates multilevel inheritance, where IT_Student inherits from Student, which in turn inherits from Person |
+## Class 7 : Multi-level Inheritance and Access Control
+| Program | Concept |
+| ------- | ------- |
+| Multi_vehicle.cpp | Demonstrates multilevel inheritance using vehicle, car, and sports_car, where each derived class inherits the properties and functions of the previous class |
+| Multi_protected.cpp | Demonstrates multilevel inheritance with protected members, showing how a protected member function of the base class can be accessed by derived classes but not directly from main() |
