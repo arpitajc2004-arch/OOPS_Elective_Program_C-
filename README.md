@@ -33,3 +33,4 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Student.cpp | Demonstrates creating multiple objects of a class and using member functions to accept and display student details |
 | Student1.cpp | Demonstrates defining class member functions outside the class using the scope resolution operator (::) |
 | Area_rect.cpp | Demonstrates the setting of values and calculating the area of a rectangle using class data members and member functions |
+## Class 3 : Member Functions and Constructors
