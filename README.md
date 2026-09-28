@@ -25,6 +25,19 @@ OOPS_Elective_Programs/
 ```
 # Class-wise Programs
 ## Class 1 : C++ Fundamentals
+| Program | Concept |
+| ------- | ------- |
+| Simple.cpp | Demonstrates basic C++ output using cout to display personal information |
+| User_input.cpp | Demonstrates taking two numbers as input and performing addition |
+| Ran_op.cpp | Demonstrates declaring different data types such as int, char, and float |
+| Rect_area.cpp | Demonstrates calculating the area of a rectangle using user-provided length and breadth |
+| Largest.cpp | Demonstrates finding the largest element in an array using a for loop |
+| CString_len.cpp | Demonstrates finding the length of a character array (C-string) using strlen() |
+| String_len.cpp | Demonstrates finding the length of a C++ string using the length() function |
+| Palindrome.cpp | Demonstrates checking whether a given string is a palindrome using character comparison |
+| Swap_pass_by_value.cpp | Demonstrates call by value, where swapping inside the function does not change the original variables |
+| Swap_pass_by_ref.cpp | Demonstrates call by reference, where swapping through reference parameters changes the original variables |
+| Swap_pass_by_pointer.cpp | Demonstrates call by address using pointers, where the original variables are swapped using their memory addresses |
 ## Class 2 : Classes and Objects
 These programs demonstrate the fundamentals of classes, objects, data members, member functions, access specifiers, multiple objects, and the scope resolution operator in C++.
 | Program | Concept |
