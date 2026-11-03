@@ -141,7 +141,8 @@ OOPS_Elective_Programs/
 | Mul_exception.cpp | Implementation of multiple catch blocks to handle different exception types, such as `int` and `double`. |
 | Div_by_zero.cpp | Demonstration of exception handling in a division function to handle division-by-zero errors using a string exception |
 | Div_by_zero1.cpp | Here c = a/b; executes before throw, so division by zero occurs before the exception is thrown. Remove that statement and throw the exception directly inside the if block |
-
+## Conclusion
+This repository provides a comprehensive collection of C++ programs covering fundamental programming concepts and Object-Oriented Programming (OOP) principles. It includes classes and objects, constructors and destructors, static and friend functions, different types of inheritance, polymorphism, and exception handling. Each program demonstrates these concepts through simple and practical examples, helping to develop a strong understanding of C++ programming, code reusability, and object-oriented design.
 
 
 
