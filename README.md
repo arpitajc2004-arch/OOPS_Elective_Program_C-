@@ -93,3 +93,9 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | St_initializer_list.cpp | Demonstrates multiple inheritance, where the Result class inherits from both Student and Test classes and uses parameterized constructors to initialize data members |
 | Student_marks.cpp | Demonstrates multiple inheritance with protected data members, where the Result class inherits student details and subject marks from two base classes to calculate and display total marks and percentage |
 | Multiple_inheritance_liquid.cpp | Demonstrates multiple inheritance using Liquid and Fuel as base classes and Petrol as a derived class, allowing the derived class to access member functions of both base classes |
+## Class 10 : Diamond problem in inheritance, virtual base classes, and runtime polymorphism
+| Program | Concept |
+| ------- | ------- |
+| Function overriding.cpp | Demonstrates the diamond problem in hybrid inheritance, where class D inherits the data member i through both B and C, resulting in ambiguity when accessing obj1.i |
+| Overriding_solved.cpp | Demonstrates the solution to the diamond problem using virtual inheritance, where B and C virtually inherit class A, ensuring only one shared copy of the base class is available to class D |
+| Overriding_inheritance_virtual.cpp | Demonstrates runtime polymorphism using virtual functions, where a base class pointer calls the overridden show() function of different derived classes |
