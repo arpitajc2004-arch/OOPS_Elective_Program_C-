@@ -110,6 +110,16 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Overloading_sub.cpp | Demonstration of binary `-` operator overloading to subtract two complex numbers. |
 | Unary_operator.cpp | Implementation of prefix and postfix increment (`++`) operator overloading to increment a counter value. |
 | Unary_dec.cpp | Demonstration of decrementing a counter using prefix and postfix operations (the code uses `operator++` but decreases the value). |
+## Class 12 : Exception Handling
+| Program | Description |
+|---------|-------------|
+| Conatenate.cpp | Demonstration of operator overloading using the binary + operator to concatenate two strings through user-defined objects |
+| Exception1.cpp | Demonstration of exception handling using `try`, `throw`, and `catch` blocks to handle integer exceptions. |
+| Mul_exception.cpp | Implementation of multiple catch blocks to handle different exception types, such as `int` and `double`. |
+| Div_by_zero.cpp | Demonstration of exception handling in a division function to handle division-by-zero errors using a string exception |
+| Div_by_zero1.cpp | Here c = a/b; executes before throw, so division by zero occurs before the exception is thrown. Remove that statement and throw the exception directly inside the if block |
+
+
 
 
 
