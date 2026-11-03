@@ -10,21 +10,28 @@ This repository contains **Object-Oriented Programming (OOPS)** concepts impleme
 | Semester | 	VII |
 # Repository Structure
 ```text
+
 OOPS_Elective_Programs/
 │
 ├── Programs/
-│   ├── Class_1/
-│   ├── Class_2/
-│   ├── Class_3/
-│   ├── Class_4/
-│   ├── Class_5/
-│   ├── Class_6/
-│   └── Class_7/
+│   ├── 1_C++_Fundamentals/
+│   ├── 2_Classes_and_Objects/
+│   ├── 3_Member_Functions_and_Constructors/
+│   ├── 4_Destructor_and_Static_Data_Members/
+│   ├── 5_Static_Member_Functions_and_Friend_Functions/
+│   ├── 6_Inheritance/
+│   ├── 7_Multilevel_Inheritance_and_Access_Control/
+│   ├── 8_Constructor_Initializer/
+│   ├── 9_Multiple_Inheritance/
+│   ├── 10_Diamond_Inheritance/
+│   ├── 11_Polymorphism/
+│   └── 12_Exception_Handling/
 │
-└── README.md 
+└── README.md
+
 ```
 # Class-wise Programs
-## Class 1 : C++ Fundamentals
+## 1.C++ Fundamentals
 | Program | Concept |
 | ------- | ------- |
 | Simple.cpp | Demonstrates basic C++ output using cout to display personal information |
@@ -38,7 +45,7 @@ OOPS_Elective_Programs/
 | Swap_pass_by_value.cpp | Demonstrates call by value, where swapping inside the function does not change the original variables |
 | Swap_pass_by_ref.cpp | Demonstrates call by reference, where swapping through reference parameters changes the original variables |
 | Swap_pass_by_pointer.cpp | Demonstrates call by address using pointers, where the original variables are swapped using their memory addresses |
-## Class 2 : Classes and Objects
+## 2.Classes and Objects
 These programs demonstrate the fundamentals of classes, objects, data members, member functions, access specifiers, multiple objects, and the scope resolution operator in C++.
 | Program | Concept |
 | ------- | ------- |
@@ -46,7 +53,7 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Student.cpp | Demonstrates creating multiple objects of a class and using member functions to accept and display student details |
 | Student1.cpp | Demonstrates defining class member functions outside the class using the scope resolution operator (::) |
 | Area_rect.cpp | Demonstrates the setting of values and calculating the area of a rectangle using class data members and member functions |
-## Class 3 : Member Functions and Constructors
+## 3.Member Functions and Constructors
 | Program | Concept |
 | ------- | ------- |
 | Time.cpp | Demonstrates setting and displaying time using a class and member functions defined outside the class |
@@ -58,7 +65,7 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Emp_def_para.cpp | Demonstrates the use of both parameterized and default constructors in the same class |
 | Dist_para.cpp | Demonstrates a parameterized constructor for initializing distance values in feet and inches |
 | def_para_copy.cpp | Demonstrates parameterized, default, and copy constructors for initializing and copying Rectangle objects |
-## Class 4 : Destructor and Static Data Members
+## 4.Destructor and Static Data Members
 | Program | Concept |
 | ------- | ------- |
 | Dest.cpp | Demonstrates a destructor that is automatically called when car objects are destroyed |
@@ -66,42 +73,42 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Static_data.cpp | Demonstrates a static data member that is shared by all objects of the class and maintains a common count |
 | Emp_static1.cpp  | Demonstrates how a static employee ID is shared among all objects, resulting in the same static variable being accessed by each object |
 | Emp_static_data.cpp | Demonstrates the difference between a static class member and a non-static data member, where the static counter generates a unique employee ID for each object |
-## Class 5 : Static Member Functions and Friend Functions
+## 5.Static Member Functions and Friend Functions
 | Program | Concept |
 | ------- | ------- |
 | St_mem_st_data.cpp | Demonstrates a static member function accessing and displaying a static data member shared by all objects of the class |
 | Friend.cpp | Demonstrates a friend function accessing the private data members of a class to calculate the sum of two numbers |
 | Friend_two_classes.cpp | Demonstrates a common friend function accessing private data members of two different classes to calculate their sum |
-## Class 6 : Inheritance
+## 6.Inheritance
 | Program | Concepts |
 | ------- | -------- |
 | Single_level_inheritance.cpp | Demonstrates single-level inheritance, where the Dog class inherits the properties and member functions of the Animal class |
 | Multilevel_inheritance.cpp | Demonstrates multilevel inheritance, where IT_Student inherits from Student, which in turn inherits from Person |
-## Class 7 : Multi-level Inheritance and Access Control
+## 7.Multi-level Inheritance and Access Control
 | Program | Concept |
 | ------- | ------- |
 | Multi_vehicle.cpp | Demonstrates multilevel inheritance using vehicle, car, and sports_car, where each derived class inherits the properties and functions of the previous class |
 | Multi_protected.cpp | Demonstrates multilevel inheritance with protected members, showing how a protected member function of the base class can be accessed by derived classes but not directly from main() |
-## Class 8 : Constructor Initializer
+## 8.Constructor Initializer
 | Program | Concept |
 | ------- | ------- |
 | Initializer_list.cpp | This program demonstrates single-level inheritance, parameterized constructors, constructor initialization lists, and passing arguments from a derived class constructor to a base class constructor in C++ |
 | Initializer_list_multi.cpp | Demonstrates multilevel inheritance using Person, Student, and IT_Student classes, with a parameterized constructor ,constructor-initializer-list to initialize student details such as name, USN, and CGPA |
-## Class 9 : Mutilple Inheritance
+## 9.Mutilple Inheritance
 | Program | Concept |
 | ------- | ------- |
 | St_initializer_list.cpp | Demonstrates multiple inheritance, where the Result class inherits from both Student and Test classes and uses parameterized constructors to initialize data members |
 | Student_marks.cpp | Demonstrates multiple inheritance with protected data members, where the Result class inherits student details and subject marks from two base classes to calculate and display total marks and percentage |
 | Multiple_inheritance_liquid.cpp | Demonstrates multiple inheritance using Liquid and Fuel as base classes and Petrol as a derived class, allowing the derived class to access member functions of both base classes |
-## Class 10 : Diamond problem in inheritance, virtual base classes, and runtime polymorphism
+## 10.Diamond inheritance
 | Program | Concept |
 | ------- | ------- |
 | Function overriding.cpp | Demonstrates the diamond problem in hybrid inheritance, where class D inherits the data member i through both B and C, resulting in ambiguity when accessing obj1.i |
 | Overriding_solved.cpp | Demonstrates the solution to the diamond problem using virtual inheritance, where B and C virtually inherit class A, ensuring only one shared copy of the base class is available to class D |
-| Overriding_inheritance_virtual.cpp | Demonstrates runtime polymorphism using virtual functions, where a base class pointer calls the overridden show() function of different derived classes |
-## Class 11 : Runtime Polymorphism , Abstraction and Operator Overloading
+## 11.Polymorphism
 | Program | Description |
 |---------|-------------|
+| Overriding_inheritance_virtual.cpp | Demonstrates runtime polymorphism using virtual functions, where a base class pointer calls the overridden show() function of different derived classes |
 | Shape_poly.cpp | Implementation of runtime polymorphism using virtual functions and base class pointers. |
 | Shape_der_poly.cpp | Demonstration of function overriding using virtual functions with Circle, Square, and Triangle classes. |
 | Shape_arr_poly.cpp | Implementation of runtime polymorphism using an array of base class pointers to call overridden functions. |
@@ -110,10 +117,10 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Overloading_sub.cpp | Demonstration of binary `-` operator overloading to subtract two complex numbers. |
 | Unary_operator.cpp | Implementation of prefix and postfix increment (`++`) operator overloading to increment a counter value. |
 | Unary_dec.cpp | Demonstration of decrementing a counter using prefix and postfix operations (the code uses `operator++` but decreases the value). |
-## Class 12 : Exception Handling
+| Conatenate.cpp | Demonstration of operator overloading using the binary + operator to concatenate two strings through user-defined objects |
+## 12.Exception Handling
 | Program | Description |
 |---------|-------------|
-| Conatenate.cpp | Demonstration of operator overloading using the binary + operator to concatenate two strings through user-defined objects |
 | Exception1.cpp | Demonstration of exception handling using `try`, `throw`, and `catch` blocks to handle integer exceptions. |
 | Mul_exception.cpp | Implementation of multiple catch blocks to handle different exception types, such as `int` and `double`. |
 | Div_by_zero.cpp | Demonstration of exception handling in a division function to handle division-by-zero errors using a string exception |
