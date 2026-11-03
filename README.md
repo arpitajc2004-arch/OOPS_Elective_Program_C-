@@ -99,3 +99,17 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | Function overriding.cpp | Demonstrates the diamond problem in hybrid inheritance, where class D inherits the data member i through both B and C, resulting in ambiguity when accessing obj1.i |
 | Overriding_solved.cpp | Demonstrates the solution to the diamond problem using virtual inheritance, where B and C virtually inherit class A, ensuring only one shared copy of the base class is available to class D |
 | Overriding_inheritance_virtual.cpp | Demonstrates runtime polymorphism using virtual functions, where a base class pointer calls the overridden show() function of different derived classes |
+## Class 11 : Runtime Polymorphism , Abstraction and Operator Overloading
+| Program | Description |
+|---------|-------------|
+| Shape_poly.cpp | Implementation of runtime polymorphism using virtual functions and base class pointers. |
+| Shape_der_poly.cpp | Demonstration of function overriding using virtual functions with Circle, Square, and Triangle classes. |
+| Shape_arr_poly.cpp | Implementation of runtime polymorphism using an array of base class pointers to call overridden functions. |
+| Abstract_veh.cpp | Implementation of abstraction using pure virtual functions and abstract classes with Vehicle, Car, and Bike classes. |
+| Overloading.cpp | Demonstration of binary `+` operator overloading to add two complex numbers. |
+| Overloading_sub.cpp | Demonstration of binary `-` operator overloading to subtract two complex numbers. |
+| Unary_operator.cpp | Implementation of prefix and postfix increment (`++`) operator overloading to increment a counter value. |
+| Unary_dec.cpp | Demonstration of decrementing a counter using prefix and postfix operations (the code uses `operator++` but decreases the value). |
+
+
+
