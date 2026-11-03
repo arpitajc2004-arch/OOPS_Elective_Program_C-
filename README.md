@@ -47,8 +47,9 @@ OOPS_Elective_Programs/
 | Swap_pass_by_ref.cpp | Demonstrates call by reference, where swapping through reference parameters changes the original variables |
 | Swap_pass_by_pointer.cpp | Demonstrates call by address using pointers, where the original variables are swapped using their memory addresses |
 ## 2.Classes and Objects
-### Class: A class is a user-defined data type that acts as a blueprint for creating objects. It contains data members and member functions.
-### Object: An object is an instance of a class that accesses its data members and member functions.
+Class: A class is a user-defined data type that acts as a blueprint for creating objects. It contains data members and member functions.
+
+Object: An object is an instance of a class that accesses its data members and member functions.
 | Program | Concept |
 | ------- | ------- |
 | First_prog.cpp | Demonstrates a class with private data members and public member functions to set and display student marks and spi |
