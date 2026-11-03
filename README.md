@@ -49,7 +49,7 @@ OOPS_Elective_Programs/
 
 9. To learn exception handling using try, throw, and catch blocks to manage runtime errors.
 
-10 To develop problem-solving skills and write modular, reusable, and efficient C++ programs.
+10. To develop problem-solving skills and write modular, reusable, and efficient C++ programs.
 # Class-wise Programs
 ## 1.C++ Fundamentals
   C++ fundamentals are the basic concepts of C++ programming, including variables, data types, operators, input/output statements, conditional statements, loops, arrays, and functions.
