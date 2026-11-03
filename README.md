@@ -56,8 +56,8 @@ OOPS_Elective_Programs/
 | Student1.cpp | Demonstrates defining class member functions outside the class using the scope resolution operator (::) |
 | Area_rect.cpp | Demonstrates the setting of values and calculating the area of a rectangle using class data members and member functions |
 ## 3.Member Functions and Constructors
-# Member Functions: Functions declared inside a class that define the operations performed on its data members.
-# Constructor: A special member function that is automatically called when an object is created to initialize its data members.
+### Member Functions: Functions declared inside a class that define the operations performed on its data members.
+### Constructor: A special member function that is automatically called when an object is created to initialize its data members.
 | Program | Concept |
 | ------- | ------- |
 | Time.cpp | Demonstrates setting and displaying time using a class and member functions defined outside the class |
@@ -70,8 +70,8 @@ OOPS_Elective_Programs/
 | Dist_para.cpp | Demonstrates a parameterized constructor for initializing distance values in feet and inches |
 | def_para_copy.cpp | Demonstrates parameterized, default, and copy constructors for initializing and copying Rectangle objects |
 ## 4.Destructor and Static Data Members
-# Destructor: A special member function that is automatically called when an object is destroyed to perform cleanup operations.
-# Static Data Members: Data members shared by all objects of a class, where only one copy exists for the entire class.
+### Destructor: A special member function that is automatically called when an object is destroyed to perform cleanup operations.
+### Static Data Members: Data members shared by all objects of a class, where only one copy exists for the entire class.
 | Program | Concept |
 | ------- | ------- |
 | Dest.cpp | Demonstrates a destructor that is automatically called when car objects are destroyed |
@@ -80,8 +80,8 @@ OOPS_Elective_Programs/
 | Emp_static1.cpp  | Demonstrates how a static employee ID is shared among all objects, resulting in the same static variable being accessed by each object |
 | Emp_static_data.cpp | Demonstrates the difference between a static class member and a non-static data member, where the static counter generates a unique employee ID for each object |
 ## 5.Static Member Functions and Friend Functions
-# Static Member Functions: Functions that belong to the class rather than individual objects and can directly access only static members of the class.
-# Friend Functions: Non-member functions that are granted permission to access the private and protected members of a class.
+### Static Member Functions: Functions that belong to the class rather than individual objects and can directly access only static members of the class.
+### Friend Functions: Non-member functions that are granted permission to access the private and protected members of a class.
 | Program | Concept |
 | ------- | ------- |
 | St_mem_st_data.cpp | Demonstrates a static member function accessing and displaying a static data member shared by all objects of the class |
@@ -94,8 +94,8 @@ OOPS_Elective_Programs/
 | Single_level_inheritance.cpp | Demonstrates single-level inheritance, where the Dog class inherits the properties and member functions of the Animal class |
 | Multilevel_inheritance.cpp | Demonstrates multilevel inheritance, where IT_Student inherits from Student, which in turn inherits from Person |
 ## 7.Multi-level Inheritance and Access Control
-# Multilevel Inheritance: A type of inheritance in which a class is derived from another derived class, forming a chain of inheritance.
-# Access Control: Access specifiers such as private, public, and protected determine the accessibility of class members.
+### Multilevel Inheritance: A type of inheritance in which a class is derived from another derived class, forming a chain of inheritance.
+### Access Control: Access specifiers such as private, public, and protected determine the accessibility of class members.
 | Program | Concept |
 | ------- | ------- |
 | Multi_vehicle.cpp | Demonstrates multilevel inheritance using vehicle, car, and sports_car, where each derived class inherits the properties and functions of the previous class |
