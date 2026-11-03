@@ -82,3 +82,10 @@ These programs demonstrate the fundamentals of classes, objects, data members, m
 | ------- | ------- |
 | Multi_vehicle.cpp | Demonstrates multilevel inheritance using vehicle, car, and sports_car, where each derived class inherits the properties and functions of the previous class |
 | Multi_protected.cpp | Demonstrates multilevel inheritance with protected members, showing how a protected member function of the base class can be accessed by derived classes but not directly from main() |
+## Class 8 : Constructor Initializer
+| Program | Concept |
+| ------- | ------- |
+| Initializer_list.cpp | This program demonstrates single-level inheritance, parameterized constructors, constructor initialization lists, and passing arguments from a derived class constructor to a base class constructor in C++ |
+| Initializer_list_multi.cpp | Demonstrates multilevel inheritance using Person, Student, and IT_Student classes, with a parameterized constructor ,constructor-initializer-list to initialize student details such as name, USN, and CGPA |
+| St_initializer_list.cpp | Demonstrates multiple inheritance, where the Result class inherits from both Student and Test classes and uses parameterized constructors to initialize data members |
+| Student_marks.cpp | Demonstrates multiple inheritance with protected data members, where the Result class inherits student details and subject marks from two base classes to calculate and display total marks and percentage |
